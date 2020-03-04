@@ -22,13 +22,13 @@ jsproxy_config({
       }
     },
     'demo-sg': {
-      label: '演示服务-新加坡节点',
+      label: 'cf主节点',
       lines: {
-        'node-aliyun-sg.etherdream.com:8443': 1,
+        'localhost': 1,
       },
     },
     'demo-cf1': {
-      label: 'CF节点1',
+      label: 'cf1',
       lines: {
         'b.lulu.workers.dev': 1,
       }
