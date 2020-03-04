@@ -24,7 +24,7 @@ jsproxy_config({
     'demo-sg': {
       label: 'cf主节点',
       lines: {
-        'localhost': 1,
+        [location.host]: 1,
       },
     },
     'demo-cf1': {
